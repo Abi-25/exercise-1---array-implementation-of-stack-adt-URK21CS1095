@@ -25,7 +25,6 @@ class Stack:
         for elem in self.items:
             print(elem)
     """Display the stack"""
-
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
 stack = Stack(size)
